@@ -16,7 +16,7 @@ You can include the library as a JavaScript module in your project.
 2. **Import the function** into your code.
 
 ```javascript
-import { resizeImages } from '@naif/resize-images';
+import { resizeImages } from './path/to/your/resizeImages';
 
 resizeImages(files, options = { maxWidth: 1920, maxHeight: 1080, quality: 0.7, outputType: 'base64' })
 ```
